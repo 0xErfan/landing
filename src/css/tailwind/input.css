@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'iran-sans-reg';
+    src: url(../../../fonts/woff2/IRANSansX-Regular.woff2);
+}
+
+@font-face {
+    font-family: 'iran-sans-bold';
+    src: url(../../../fonts/woff2/IRANSansX-Bold.woff2);
+}
+
+.app-container {
+    @apply px-3 md:px-8 xl:px-[200px];
+}
+
+.gray-linear-bg {
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.primary-gradient {
+    background: linear-gradient(225deg, #3D8BF2 0.15%, #125DC1 100.15%);
+}
+
+
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: -25px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+}
+
+.swiper-pagination-bullet {
+    opacity: 1 !important;
+}
+
+.swiper-pagination-bullet {
+    margin: auto 3px !important;
+}
