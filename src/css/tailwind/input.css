@@ -38,3 +38,16 @@
 .swiper-pagination-bullet {
     margin: auto 3px !important;
 }
+
+.section-shadow {
+    backdrop-filter: blur(8px);
+    box-shadow: 0px 1px 4px 0px #0000000A;
+}
+
+.gold-text-gradient {
+    background: linear-gradient(180deg, #B07300 0%, #F29F05 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}

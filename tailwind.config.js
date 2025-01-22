@@ -2,7 +2,7 @@
 module.exports = {
   content: [
     './src/**/*.{html,js}',
-    './index.html',
+    '*.html',
   ],
   theme: {
     extend: {
@@ -17,6 +17,9 @@ module.exports = {
       },
       fontSize: {
         "xs": 12
+      },
+      boxShadow: {
+        "normal": '0px 4px 10px 0px #0000001A;'
       }
     },
   },
